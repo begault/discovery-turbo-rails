@@ -1,9 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project aims to discover turbo-rails library now included by default in Rails 7 to write reactive single-page applications without having to write a single line of custom JavaScript.
+It follows the hotrails tutorial : https://www.hotrails.dev/turbo-rails
 
-Things you may want to cover:
+* Current state 
+chapter 5 to begin 
+
+# Project information
 
 * Ruby version
 
@@ -12,13 +15,19 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
+`bin/rails db:create`
 
 * Database initialization
 
+`bin/rails db:migrate`
+`bin/rails db:seed`
+
 * How to run the test suite
+
+`bin/rails test:system`
 
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 
-* ...
+* 
